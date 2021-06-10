@@ -12,6 +12,7 @@ console.log(myRoll);
 // number Type Data
 var aNumber = 10; 
 var anotherNumber = 10.10; 
+console.log(typeof aNumber);
 
 // String 
 var text = 'I want to say something'; 
@@ -53,4 +54,119 @@ var isName = 'Mosfiqur';
 isName = 'Shuvo';
 var isNumber = 25; 
 isNumber = 17; 
-console.log(isNumber);;
+console.log(isNumber);
+
+
+// Comment
+// this is single line comment
+/*
+this is multi line comment
+Author: Mosfiqur Rahman
+Email: mosfiqur.rahman.jsd@gmail.com
+*/
+
+
+
+// operator:
+//1. Arithmentic Operator:
+// (+):
+var a = 10; 
+var b = 20; 
+var result = a + b; 
+
+// (-):
+var a = 10; 
+var b = 20; 
+var result = b - a; 
+
+// (*):
+var a = 10; 
+var b = 20; 
+var result = a * b; 
+
+// (/):
+var a = 20; 
+var b = 2; 
+var result = a / b; 
+
+
+// (%):
+var a = 23; 
+var b = 10; 
+var result = a % b; 
+console.log(result);
+
+// agulo age ba pore boste pare age bosle valur incriment/decriment 
+// age hoi r pore thakle age return kore pore valur incriment/decriment hoi
+// (++) incriment
+var a = 10; 
+a++; 
+
+// decriment (--)
+var x = 5
+--x;
+console.log(x); 
+
+
+
+// 2. Compareume operator :
+/*
+
+== 
+!=
+>
+<
+>=
+<=
+===
+!==
+
+
+*/
+
+var num = 11 <= 10; 
+console.log(num);
+
+
+// 3. Logical Operator: 
+/*
+
+&&
+||
+!
+
+*/
+var logic = true && !false; 
+console.log(logic);
+
+
+// 4. Assignment Operator:
+/*
+
++=
+-=
+
+*/
+var a = 10; 
+a -= 10;  // a = a (+, -, *, /, %) 10; 
+console.log(a);
+
+
+// 5. conditional/Ternary Operator:
+// (... ? ... : ...)
+var a = 10; 
+var b = 20; 
+var c = a > b ? 100 : 200; 
+console.log(c);
+
+
+// 6. Others Operator:
+var a = 10; 
+console.log(typeof(a)); 
+
+
+
+
+
+
+
