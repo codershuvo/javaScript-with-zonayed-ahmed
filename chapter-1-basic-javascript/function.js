@@ -91,3 +91,15 @@ aFunc(a);
 
 
 
+
+
+
+// functiondefinition 
+function aSimpleFunc() {
+    console.log('A simple function'); 
+}
+aSimpleFunc(); 
+
+
+
+
