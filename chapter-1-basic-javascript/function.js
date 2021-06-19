@@ -30,6 +30,9 @@ console.log(sumMachine(2, 2));
 console.log(sumMachine(4, 4)); 
 
 
+
+
+
 function printMyName(name, age) {
     console.log('My name is ' + name + ' and I am ' + age + ' years old.'); 
 }
