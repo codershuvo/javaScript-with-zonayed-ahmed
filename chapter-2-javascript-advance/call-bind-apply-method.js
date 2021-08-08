@@ -103,5 +103,3 @@ var samad = {
     dob: 1988
 }
 
-var samadAgeCalculate = dalim.age.bind(samad); 
-samadAgeCalculate(2018, 'Hello World')
